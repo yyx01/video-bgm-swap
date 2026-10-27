@@ -1,13 +1,15 @@
 // ==UserScript==
 // @name         视频BGM替换器
-// @namespace    https://github.com/yourname/video-bgm-swap
+// @namespace    https://github.com/yyx01/video-bgm-swap
 // @version      0.5.0
 // @description  替换网页视频背景音乐：人声音量滑到0=只留BGM，调大=保留人声（AI分离需本地服务）。支持导入洛雪(LX Music)/Sollin聚合音源文件，内置五大平台搜索，播放失败自动更换音源/平台/音质，自动识别视频时长。
-// @author       you
+// @author       yyx01
 // @match        *://*/*
 // @grant        none
 // @run-at       document-idle
 // @noframes
+// @homepageURL  https://github.com/yyx01/video-bgm-swap
+// @supportURL   https://github.com/yyx01/video-bgm-swap/issues
 // ==/UserScript==
 
 (function () {
