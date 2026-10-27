@@ -10,6 +10,7 @@
 // @noframes
 // @homepageURL  https://github.com/yyx01/video-bgm-swap
 // @supportURL   https://github.com/yyx01/video-bgm-swap/issues
+// @license      MIT
 // ==/UserScript==
 
 (function () {
