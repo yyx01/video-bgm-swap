@@ -36,18 +36,19 @@
 
 ## 📥 安装油猴脚本（三种方式任选）
 
-### 方式 1：一键安装（网络通畅时最快）
+### 方式 1：Greasy Fork 一键安装（⭐ 推荐，最稳定）
 
-点击下面的按钮，**Tampermonkey 会自动弹出安装确认**，点「安装」即可：
+脚本已发布到 **Greasy Fork**，打开下方页面，点击绿色 **「安装此脚本」** 按钮，Tampermonkey 会自动弹出安装确认：
 
-[![安装脚本](https://img.shields.io/badge/一键安装-油猴脚本-2ea44f?style=for-the-badge)](https://raw.githubusercontent.com/yyx01/video-bgm-swap/master/video-bgm-swap.user.js)
+[![安装脚本](https://img.shields.io/badge/一键安装-Greasy_Fork-2ea44f?style=for-the-badge)](https://greasyfork.org/zh-CN/scripts/602496)
 
-备用链接（同样点击即装）：
-[jsDelivr 安装](https://cdn.jsdelivr.net/gh/yyx01/video-bgm-swap@master/video-bgm-swap.user.js)
+备用直装链接（网络通畅时点击即装）：
+- [GitHub raw 安装](https://raw.githubusercontent.com/yyx01/video-bgm-swap/master/video-bgm-swap.user.js)
+- [jsDelivr 安装](https://cdn.jsdelivr.net/gh/yyx01/video-bgm-swap@master/video-bgm-swap.user.js)
 
-> 如果点击后没有弹出安装页，可能是 `raw.githubusercontent.com` / `cdn.jsdelivr.net` 在你的网络下无法访问（国内常见），请改用方式 2 或方式 3。
+> 如果 Greasy Fork 打不开，或直装链接没反应（`raw.githubusercontent.com` / `cdn.jsdelivr.net` 在国内网络下可能无法访问），请改用方式 2 或方式 3。
 
-### 方式 2：从 Release 下载后拖拽安装（最稳，无需访问 CDN）
+### 方式 2：从 GitHub Release 下载后拖拽安装（最稳，无需访问 CDN）
 
 1. 打开 👉 **https://github.com/yyx01/video-bgm-swap/releases**（GitHub 主站一般可直接访问）
 2. 在 v0.5.0 的 **Assets** 里下载 **`video-bgm-swap.user.js`**
