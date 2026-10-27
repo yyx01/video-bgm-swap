@@ -34,16 +34,28 @@
 
 ---
 
-## 📥 一键安装油猴脚本
+## 📥 安装油猴脚本（三种方式任选）
 
-> 点击下面的按钮，**Tampermonkey 会自动弹出安装确认**，点「安装」即可，不用复制粘贴：
+### 方式 1：一键安装（网络通畅时最快）
+
+点击下面的按钮，**Tampermonkey 会自动弹出安装确认**，点「安装」即可：
 
 [![安装脚本](https://img.shields.io/badge/一键安装-油猴脚本-2ea44f?style=for-the-badge)](https://raw.githubusercontent.com/yyx01/video-bgm-swap/master/video-bgm-swap.user.js)
 
-备用链接（国内访问更快，同样点击即装）：
+备用链接（同样点击即装）：
 [jsDelivr 安装](https://cdn.jsdelivr.net/gh/yyx01/video-bgm-swap@master/video-bgm-swap.user.js)
 
-> 如果点击后没有弹出安装页，请先确认已安装 **Tampermonkey** 浏览器扩展。
+> 如果点击后没有弹出安装页，可能是 `raw.githubusercontent.com` / `cdn.jsdelivr.net` 在你的网络下无法访问（国内常见），请改用方式 2 或方式 3。
+
+### 方式 2：从 Release 下载后拖拽安装（最稳，无需访问 CDN）
+
+1. 打开 👉 **https://github.com/yyx01/video-bgm-swap/releases**（GitHub 主站一般可直接访问）
+2. 在 v0.5.0 的 **Assets** 里下载 **`video-bgm-swap.user.js`**
+3. 把这个文件**直接拖进** Tampermonkey 的「已安装脚本」页面 → 点「安装」
+
+### 方式 3：本地文件直接拖拽（已有项目源码时）
+
+直接把 `video-bgm-swap.user.js` 文件**拖进** Tampermonkey 的「已安装脚本」页面 → 点「安装」。
 
 ---
 
