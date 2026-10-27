@@ -34,9 +34,22 @@
 
 ---
 
+## 📥 一键安装油猴脚本
+
+> 点击下面的按钮，**Tampermonkey 会自动弹出安装确认**，点「安装」即可，不用复制粘贴：
+
+[![安装脚本](https://img.shields.io/badge/一键安装-油猴脚本-2ea44f?style=for-the-badge)](https://raw.githubusercontent.com/yyx01/video-bgm-swap/master/video-bgm-swap.user.js)
+
+备用链接（国内访问更快，同样点击即装）：
+[jsDelivr 安装](https://cdn.jsdelivr.net/gh/yyx01/video-bgm-swap@master/video-bgm-swap.user.js)
+
+> 如果点击后没有弹出安装页，请先确认已安装 **Tampermonkey** 浏览器扩展。
+
+---
+
 ## 🚀 快速开始（3 步）
 
-1. **安装油猴脚本**：把 `video-bgm-swap.user.js` **拖进 Tampermonkey 管理页**（或复制全部内容到「添加新脚本」后 `Ctrl+S`）
+1. **安装油猴脚本**：点击上方「一键安装」按钮 → Tampermonkey 弹出确认 → 点「安装」
 2. **启动本地服务**：Windows 双击 `start.bat`（或直接双击 `dist\bgm-separate-server\bgm-separate-server.exe`），看到 `HTTP 代理已启动: http://127.0.0.1:8766` 即成功
 3. **刷新视频页**：右上角出现 🎵 面板 → 导入音源/选本地音乐 → 勾选「启用替换」→ **直接可用**
 
