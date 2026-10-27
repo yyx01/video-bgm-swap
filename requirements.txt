@@ -1,0 +1,16 @@
+# 视频BGM替换器 - 依赖说明
+# ============================
+# 【核心模式】在线搜索 / BGM替换 / 仅BGM兜底：
+#   零第三方依赖，只需 Python 3.8+ 标准库，无需安装任何包。
+#
+# 【AI人声分离模式】保留人声 / 只替换伴奏（推荐）：
+#   需要安装下面的依赖，然后重启本地服务：
+#
+#   pip install demucs torch websockets numpy
+#
+#   首次运行会下载 htdemucs 模型（约80MB），之后缓存到本地。
+
+demucs>=4.1.0
+torch
+websockets
+numpy

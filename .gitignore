@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller 构建产物（dist 如需发布可上传 Releases，不提交 git）
+build/
+dist/
+*.spec
+
+# 测试临时文件
+exe-test-*.txt
+
+# 系统
+Thumbs.db
+.DS_Store
